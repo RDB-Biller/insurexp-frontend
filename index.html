@@ -24,7 +24,7 @@
       const patient = document.getElementById("patient").value;
       const amount = document.getElementById("amount").value;
 
-      const res = await fetch(API_URL + "/billing", {
+      const res = await fetch(API_URL + "/billing/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
